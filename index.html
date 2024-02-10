@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Specialized Timer</title>
+  <link rel="stylesheet" type="text/css" href="css/">
+</head>
+<body>
+  <div class="timer-container">
+    <h1>Specialized Timer</h1>
+    <div>
+      <label for="interval-input">Interval Duration (in seconds):</label>
+      <input type="number" id="interval-input" min="1" value="10">
+    </div>
+    <div>
+      <label for="break-input">Break Duration (in seconds):</label>
+      <input type="number" id="break-input" min="0" value="0">
+    </div>
+    <div>
+      <label for="rounds-input">Total Rounds:</label>
+      <input type="number" id="rounds-input" min="1" value="1">
+    </div>
+    <div class="timer-display">
+      <h2 id="timer">0</h2>
+    </div>
+    <div class="timer-controls">
+      <button id="start-button">Start</button>
+      <button id="stop-button">Stop</button>
+      <button id="resume-button">Resume</button>
+      <button id="reset-button">Reset</button>
+    </div>
+  </div>   
+  <script src="js/"></script>
+</body>
+</html>
