@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .timer-container {
+    margin-top: 100px;
+  }
+  
+  .timer-display {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .timer-controls button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+  
+  .timer-container div {
+    margin-bottom: 10px;
+  }
